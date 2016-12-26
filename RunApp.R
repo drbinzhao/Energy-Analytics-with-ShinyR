@@ -1,5 +1,5 @@
 ####set to appropriate directory with all R files
-setwd("C:/Users/Gavin/Desktop/CapstoneProject")
+setwd("/Users/ShireeXue/GitHub/Energy-Analytics-with-ShinyR")
 
 #need to run to load shiny package
 if(!require(shiny)) install.packages("shiny", dependencies = T)

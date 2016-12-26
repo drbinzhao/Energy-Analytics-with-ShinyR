@@ -2,7 +2,7 @@
 #Define dashboard color and title
 dashboardPage(
     skin="green",
-  dashboardHeader(title="PECO Dashboard"),
+  dashboardHeader(title="EnergyX Dashboard"),
   
 #Define Dashboard Sidebar  
   dashboardSidebar(
@@ -24,7 +24,7 @@ dashboardPage(
   #UI for overview page
   dashboardBody(
     tags$head(tags$link(rel = "icon", type = "image/png", href = "favicon.png"),
-              tags$title("PECO")),
+              tags$title("EnergyX")),
     tabItems(
     tabItem(tabName="overview",
     fluidRow(
